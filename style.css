@@ -423,3 +423,8 @@ nav{
     height: 20vh;
 }
 
+/* --------------- PAGE 3 --------------- */
+
+#page-3{
+    visibility: hidden;
+}
