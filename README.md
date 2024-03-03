@@ -3,6 +3,14 @@
 ## Demo
 You can view the [live demo of this project 🔗 here](https://deploy-1109.github.io/Web3_DesignAgency/).
 
+🚧 Important Notice: Accessing the Website
+
+If you encounter a ⛔ warning page when trying to access the website, follow these steps to proceed:
+
+Click on "Details 👆" on the warning page.
+Then, click on "Proceed to this unsafe site 👆" to access the website without any issues.
+We apologize for any inconvenience caused by this warning message. Rest assured that the website is safe to visit,
+
 # Web3 Design Agency Website Clone
 
 This project aims to clone a modern UI design with a glassmorphism effect for a web3 design agency website. The design is inspired by contemporary trends in web design and incorporates the glassmorphism effect to create a sleek and visually appealing user interface.
