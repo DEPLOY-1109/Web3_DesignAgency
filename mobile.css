@@ -1,0 +1,181 @@
+@media screen and (max-width: 767px){   
+    nav{
+        justify-content: space-around;
+        font-size: 2vmax;
+    }
+
+    #links{
+        display: none;
+    }
+
+    #hero-content{
+        flex-direction: column;
+        align-items: center;
+        /* background-color: red; */
+        justify-content: space-between;
+        height: 53vh;
+    }
+
+    #lhs-info{
+        display: flex;
+        width: 100%;
+    }
+
+    #ai-img{
+        display: none;
+    }
+
+    #ai-img-mobile{
+        display: block;
+        height: 25vmax;
+    }
+
+    #rhs-info{
+        width: 70%;
+        /* background-color: rebeccapurple; */
+    }
+    #rhs-info > p{
+        width: 100%;
+        font-size: 2.5vmax;
+        line-height: 2.5vmax;
+        text-align: center;
+    }
+    #rhs-info button {
+        font-size: 2vmax;
+        font-weight: bold;
+    }
+
+    /* Page 2 */
+    #hero-pg2{
+        flex-direction: column;
+        height: fit-content;
+        align-items: center;
+    }
+    #hero-pg2 > img{
+        width: 45vmax;
+        padding: 4vmax 0;
+        padding-bottom: 2vmax;
+    }
+    #content-pg2{
+        width: 80%;
+    }
+
+    #content-pg2 > p{
+        font-size: 2.2vmax;
+        width: 100%;
+        margin-top: 2vmax;
+    }
+
+    #content-pg2 ul {
+        margin: 4vmax 0;
+
+    }
+    #content-pg2 ul li {
+        font-size: 2vmax;
+    }
+
+    #content-pg2 > button {
+        font-size: 2vmax;
+        width: 60%;
+        padding: 1.5vmax 0;
+    }
+
+    #our-reach>.box>h2 {
+        font-size: 2.8vmax;
+    }
+
+    #our-reach>.box>p {
+        font-size: 1.8vmax;
+    }
+
+    /* PAGE 3 */
+    #cards{
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100vmax;
+    }
+
+    .card-in{
+        width: 80%;
+        height: 25%;
+        /* background-color: red; */
+    }
+
+    .card-in p {
+        font-size: 2vmax;
+        font-weight: 400;
+    }
+
+    .foot-card-in h4 {
+        font-size: 1.8vmax;
+        font-weight: bold;
+    }
+
+    .foot-card-in p {
+        font-size: 1.5vmax;
+        color: white;
+        font-weight: 300;
+    }
+
+    .avatar-box {
+        
+        width: 16vmax;
+        height: 8vmax;
+        
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%) !important;
+    }
+
+    .avatar-box>* {
+        height: 6vmax;
+        width:  6vmax;
+    }
+
+    .avatar-box > i {
+        font-size: 6vmax;
+    }
+
+    .stars > i{
+        font-size: 2vmax;
+    }
+
+    /* ------ FOOTER -------- */
+    #footer{
+        flex-direction: column;
+        gap: 2vmax;
+        height: 60vh;        
+    }
+
+    #footer > *{
+        width: 70%;
+        font-size: 2vmax;
+    }
+
+    #intro-foot > h2 {
+        font-size: 5vmax !important;
+    }
+    #intro-foot > p{
+        font-size: 2vmax;
+    }
+    #social-icons{
+        margin: 1vmax 0;
+    }
+
+    #rhs-links{
+        height: 20vh;
+        /* background-color: red; */
+    }
+    #ft-links h1, #ft-contactUs ul li{
+        font-size: 2.5vmax;
+    }
+    #ft-links ul li, #ft-contactUs ul li{
+        font-size: 1.5vmax;
+    }
+
+    #rights-reserved {
+        font-size: 2vmax;
+        height: 6vmax;
+    }
+
+}

@@ -13,18 +13,24 @@ html, body{
     /* background: linear-gradient(to right, #1A1A1A 0%, #1A1A1A 50%, #1A1A1A 100%); */
     background: #1A1A1A;
     position: relative;
+
+    overflow-x: hidden;
 }
 
 nav{
     width: 100%;
-    height: 7rem;
-    /* background-color: aquamarine; */
+    height: 7vmax;
+    /* background.-color: aquamarine; */
 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 
     font-size: 1.2vmax;
+}
+
+blank-1{
+    display: none;
 }
 
 .txt-logo{
@@ -94,7 +100,7 @@ nav{
     position: absolute;
     content: "Web3 Design";
     
-    top: 8px;        
+    top: 0.5vmax;        
     
     -webkit-text-stroke: transparent;
     background: linear-gradient(135deg, white 30%, rgb(179, 179, 179) 50%, white 70% );
@@ -116,15 +122,19 @@ nav{
 
 #hero-content{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 
     margin-top: 4vmax;
+}
+
+#hero-content > *{
+    /* background-color: rebeccapurple; */
 }
 
 #lhs-info {
     display: flex;
     justify-content: space-around;
-    width: 70%;
+    width: 30%;
 
 }
 
@@ -172,6 +182,10 @@ nav{
     animation: bounce 2s infinite alternate;
 }
 
+#ai-img-mobile{
+    display: none;
+}
+
 @keyframes bounce{
     0% {
             transform: translateY(0);
@@ -190,24 +204,30 @@ nav{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
+
+    /* background-color: purple;     */
 
     padding: 5vmax 0;
-    padding-right: 15vmax;
+    /* padding-right: 15vmax; */
 }
-#rhs-info p{
+#rhs-info > p{
+    /* background-color: red; */
+    width: 60%;
     font-size: 1vmax;
     line-height: 1.8vmax;
 }
 #rhs-info button{
+    margin-top: 2vmax;
     color: black;
     padding: 0.8vmax 0.8vmax;
     font-size: 1vmax;
-    width: 70%;
+    width: 80%;
     border-radius: 2rem;
     cursor: pointer;
     border: none;        
-
     transition: all 0.2s ease-in-out;
+        
 }
 #rhs-info button:hover{
     
@@ -272,6 +292,7 @@ nav{
     /* min-height: 100vh; */
 
     position: relative;
+    /* background-color: teal; */
 }
 
 #page-2 > h1{
@@ -586,6 +607,13 @@ nav{
     width: 2.5vmax;
 }
 
+#rhs-links{
+    display: flex;
+    /* background-color: red; */
+    width: 40%;
+    justify-content: space-between;
+}
+
 #ft-links, #ft-contactUs{
     height: 80%;
     display: flex;
@@ -593,17 +621,18 @@ nav{
     justify-content: space-evenly;
 }
 
+#ft-links > h1, #ft-contactUs >h1{
+    font-size: 2.5vmax;
+}
+
 #ft-links > ul, #ft-contactUs >ul{
     display: flex;
     flex-direction: column;
     gap: 0.5vmax;
 }
-#ft-links >ul>li{
+#ft-links >ul>li, #ft-contactUs>ul>li{
     list-style: none;
-}
-
-#ft-contactUs > ul > li{
-    list-style: none;
+    font-size: 1.2vmax;
 }
 
 #rights-reserved{
